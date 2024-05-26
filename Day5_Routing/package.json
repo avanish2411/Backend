@@ -1,0 +1,21 @@
+{
+  "name": "day5",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon server_1.js",
+    "devStart": "nodemon server_1.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "lodash": "^4.17.21",
+    "mongoose": "^8.4.0",
+    "nodemon": "^3.1.0"
+  }
+}

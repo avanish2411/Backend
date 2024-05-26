@@ -1,0 +1,12 @@
+Node js:
+1) Written in js
+2) Cross-platform, Open-Source
+3) Server side: helps to make servers.
+4) Runtime Env: allow to run js code in servers
+5) allows developers to use same language in frontend and backend.
+6) it is build on "Chrome v8 javascript Engine", developed by google to run js within chrome browser.
+7) v8 Engine is high performance and efficient execution of js code. it changes js code to machine code. 
+
+Js:
+1) .js extension 
+2) 

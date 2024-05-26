@@ -1,0 +1,15 @@
+Models: design which decides what can be present in the schema. Jaise person ka database hoga to name, age, contact, adress, etc hoga.
+Schema: A schema is a blueprint of the database which specifies what fields will be present and what would be their types.
+
+
+body-parser:
+it is the middle ware of the expreds js.
+it extract and parse the body part of incoming http request.
+jo bhi data client send krta hai body ke andar hota hai or wo kisi bhi format me ho skta hai jaise json, url-encoded data, form data,etc.
+or data ko parse krke body parser "req.body" me available kr deta hai.
+
+
+c -> create -> post
+r -> read -> get
+u -> update -> put/patch
+d -> delete -> delete

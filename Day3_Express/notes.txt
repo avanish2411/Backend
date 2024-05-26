@@ -1,0 +1,8 @@
+Server: A computer program that's responsible for preparing and deliver data to other computer.
+
+to convert json to object : use Json.parse(varible_name);
+to convert object to json : use Json.stringfy(varible_name);
+json datatype is string
+
+API -> menu card of the restraunt 
+Endpoints -> dishes present in the menu card

@@ -1,0 +1,13 @@
+PUT:
+The PUT method is typically used for replacing an entire resource with the provided data. If some fields are omitted in the request, those fields will be removed from the resource.
+
+PATCH:
+The PATCH method is used for partial updates to a resource. You only need to include the fields that you want to update, leaving the rest of the resource unchanged.
+
+req.body:
+Purpose: Contains data sent by the client in the request body. This is typically used in POST, PUT, and PATCH requests where the client sends data to be processed or stored.
+Usage: To access data sent by the client in the request body, you need to use middleware such as body-parser to parse JSON or URL-encoded data.
+
+req.params:
+Purpose: Contains route parameters specified in the URL. These are typically used to identify specific resources, like when fetching, updating, or deleting a specific item by its ID.
+Usage: Route parameters are defined in the route path using a colon (:) followed by the parameter name.
